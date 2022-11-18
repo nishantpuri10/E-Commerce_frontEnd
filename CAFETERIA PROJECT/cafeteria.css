@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+/*BODY*/
+
+body {
+  font-family: "Kaushan Script", cursive !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainBlack)!important;}
+  
+/*HEADER*/
+
+.rotate {
+  animation: rotation 8s infinite linear;
+  display: inline-block !important;
+  margin-left:10px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}  
+
+  
+/*NAVBAR AND ITEMS*/
+  
+#navbar{
+	height: 80px !important;
+	width: 100% !important;
+	margin-top: 10px!important
+	}
+	
+	
+ul  li{
+	color: #ef7998 !important;
+	font-size: 30px !important;
+	display: inline-block !important;
+
+	
+    
+	
+}
+
+ul a{
+	text-decoration: none;
+}
+ul{
+
+	word-spacing:30px !important;
+	
+}
+#store{
+	margin-left: 30px !important
+}
+#phone{
+	height: 20px !important;
+	width:20px !important;
+	
+
+
+}
+li a{
+	color: #ef7998;
+}
+#n span{
+	color: #000;
+	font-size: 20px;
+}
+#cart-total{
+	margin-right:80px!important;
+	transition-duration: 0.8s;
+}
+
+/*IMAGE*/
+
+#image{
+	width: 100%;
+	height:600px;
+	background-image: url("https://images.unsplash.com/photo-1509785307050-d4066910ec1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=728&q=80");
+	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#explore{
+   margin-left:45%!important;
+   margin-top: 2% !important;
+   transition-duration: 0.8s;
+   
+ 
+}
+#exploreNow{
+	color:#E75480;
+}
+#exploreNow2{
+	color:#E75480;
+}
+#span{
+	color: #fff;
+	display: inline-block;
+	margin-left: 32%;
+	margin-top:13%;
+}
+#Main-Heading{
+	color:#E75480;
+	display: inline-block;
+	font-size: 60px;
+	font-weight: bold;
+}
+#about{
+	font-color:#000;
+	display: inline-block;
+	margin-top: 8%;
+	margin-left: 8%;
+}
+#us{
+	color:#ef7998 !important;
+	font-size: 60px;
+	display: inline-block;
+	margin-top: 8%;
+	font-weight: bold;
+}
+#about-text{
+	margin-left:8%;
+	width:300px;
+	display: inline-block;
+}
+#explore1{
+	margin-left: 8%;
+	color:#E75480;
+	transition-duration: 0.8s;
+	
+	
+}
+.about-photo{
+	height:400px;
+	width:500px;
+	border:7px solid rgb(249, 228, 148);
+	
+	
+
+	
+
+}
+#about-pic:hover{
+	width:100%;
+	height: 100%;
+	margin-top: 0%;
+	margin-left: 0%;
+	transition: all 1s ease-in-out
+	
+
+}
+#about-pic{
+	width:100%;
+	height: 100%;
+	margin-top: 2%;
+	margin-left: 3%;
+	
+	
+	
+}
+
+
+#a{
+	margin-left: 5%;
+}
+#home{
+	margin-left: 40%
+}
+#flex{display: flex;
+	width:100%;
+	height:70vh;
+	
+	
+flex-wrap: wrap;
+margin-top:2%; 
+justify-content: space-around;}
+
+/* ABOUT US*/
+
+#aboutus{width:320px;
+	height:300px;
+	
+	margin-left: 0%
+
+
+}
+#upp{
+	margin-left: 5%;
+}
+.
+#inner{
+	
+margin-top: -30%;
+margin-left: 48%;
+}
+#cart-total{
+	margin-left: 30%;
+	height: 50px;
+	width:200px;
+	color:#E75480;
+}
+a{
+	color:pink;
+
+}
+
+/* OURSTORE*/
+
+#ourstore{
+	background-color: rgb(238, 238, 238);
+	
+	height:290vh;
+}
+#ourin{
+
+	height: 200px;
+	
+
+}
+#our{
+	display: inline-block;
+	margin-left: 43%;
+}
+#c{
+	font-size: 70px;
+	font-weight: bold;
+	color:#ef7998;
+}
+#first{
+	margin-left: 33%;
+	
+}
+.butt{
+	margin-left:2.5%;
+}
+.upper{
+	
+	display: flex!important;
+	flex-wrap: wrap;
+	height: 60%;
+}
+
+.cakes{
+	box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+	
+}
+
+.food{
+	max-width: 350px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+	border:solid silver;
+	border-radius:20px;
+}
+
+.foodphoto{
+	height:300px;
+	width:100%;
+}
+
+.foodphoto:hover{
+	transform:scale(1.5);
+	transition:1s ease-in-out;
+}
+.addtocartbutton{
+	border:none;
+	background-color:transparent;
+	border-radius:100%;
+}
+.addtocartbutton:hover{
+	background-color:grey;
+}
+
+
+
+#cart-1-image{
+	height:30px;
+	width:30px;
+	margin-left:0%;
+	border-radius:50%;
+}
+#counter{
+	color: #000;
+}
+#total{
+	color: #000;
+}
+#spa{
+	color:#000;
+}
+#sp{
+	color:#000;
+}
+#sidediv{
+	transition: all 2s ease-in-out;
+
+	background-color: red;
+	width:250px;
+	transform: rotate(360deg);
+	height: 200px;
+	margin-left: 105%;
+	margin-top:-216.3%;
+	display: none;
+
+	
+
+	
+}
+#changepos1{
+	
+	
+	background-color: red;
+	width:250px;
+	height: 200px;
+	margin-left: 105%;
+	margin-top:-216.3%;
+
+	
+}
+
+#changepos{
+	transition: all 2s ease-in-out;
+	transform: rotate(360deg)  ;
+	background-color: rgb(249, 228, 148);
+	width:265px;
+	height: 400px;
+	margin-left: 80.3%;
+	margin-top:-260.6%;
+	overflow: auto;
+	
+}
+.item-0{
+	width:100%;
+	
+	height:90px;
+	
+	padding-top: 20px;
+
+
+
+
+}
+.item-pic{
+	border-radius: 50%;
+	margin-left:5%;
+	width:50px;
+	height:50px;
+	
+}
+.item-name{
+	font-size:15px;
+	font-color:#000;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-right: 25px;
+}
+.delete{
+	height:20px;
+	width:20px;
+	
+}
+.price{
+		font-size:15px;
+	font-color:#000;
+	position: relative;
+	left:20px;
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+#totalandbutton{
+	
+	
+	height:120px;
+	width:100%;
+	
+}
+#t{
+	font-size:20px;
+	font-color:#000;
+	margin-left:30px;
+}
+#p{
+	font-size:20px;
+	font-color:#000;
+	margin-left:80px;
+}
+#n1{
+	font-size:20px;
+	font-color:#000;
+	font-weight:bold;
+
+}
+#b0{
+	margin-left:7px;
+}
+#b1{
+	margin-left: 10px
+}
+@media screen and (max-width: 900px){
+	#home {
+		margin-left: 2%;
+
+	}
+	#first{
+		margin-left: 5%;
+	}
+	#flex{
+		height:130vh;
+		
+	}
+	
+	li a{
+		font-size: 20px;
+	}
+	#span1{
+		font-size: 40px;
+	}
+	#cart-total{
+		margin-left: -2%;
+		font-size: 15px;
+		width:150px;
+	}
+	
+}
+@media screen and (max-width: 1250px){
+	
+	#sidediv{
+	display: none;}
+	#changepos{
+		display: none;
+	}
+	#cart-total{
+		display: none;
+	}
+}
+ /* CONTACT US */
+ #contact{
+    height:80vh;
+    width:100%;
+    background-image:linear-gradient(to right,#333333,#737373);
+	
+   
+    
+}
+
+
+input{
+    border:none;
+    border-bottom:2px solid white;
+    background-color:transparent;
+    width:500px
+    
+}
+textarea{
+    background-color:transparent;
+    border:none;
+    border-bottom:2px solid white;
+    
+}
+#buttonC{
+    background-color:transparent;
+    border:2px solid white;
+    color:white;
+    height:30px;
+    
+}
+#getintouch{
+    color:white;
+    height:30%;
+    width:30%;
+    font-size:20px;
+    
+        
+}
+.para{
+    font-size:12px;
+    padding-right:10px;
+	font-family:bold;
+}
+#Con{
+    width:80%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    
+}
+#form-section{
+	margin-top:80px;
+	margin-left:150px;
+}
+#getintouch{
+	margin-top:80px;
+	margin-left:150px;
+	
+}
+
+
+
+
